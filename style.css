@@ -153,36 +153,43 @@ html, body{
     color:#2f2f2f ;
    }  
 
-#page1 h1{
-    font-size: 560px;
+#heading h1{
+    font-size: 400px;
     font-weight: 100;
-    letter-spacing: -25px;
+    letter-spacing: -1px;
     font-family: canopee;
+   margin: 30px;
     background-color: #1c1c19;
     color: #c4bcb3;
-    line-height: 600px;
-    width: 96%;
-    margin-left: 2%;
-    margin-top: 2px;
+    line-height: 300px;
+    text-align: center;
+  margin: 2%;
+  padding: 30px;
+    width: 93%;
+
 }    
+/* -----------------------page2----------------------- */
 #page2{
     height: 150vh;
     width: 100%;
+    position: absolute;
     background-color: #c4bcb3;
     display: flex;
     align-items: center;
+    padding: 10px 40px;
     justify-content: space-between;
 }
 #page2-left{
     height: 100%;
-    width: 30%;
-    
+   padding-right: 50px; 
+    width: 35%;
+    border-right: 1px solid #4b4b4b;
 }
 #page2-left h2{
     font-size: 140px;
-    text-align: center;
     line-height: 150px;
     font-family: canopee;
+    
     letter-spacing: -10px;
     font-weight: 100;
 }
@@ -191,6 +198,65 @@ html, body{
     font-weight: 900;
     letter-spacing: normal;
 }
+
+#page2-left img{
+    height: 47%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-left p{
+    font-size: 34px;
+    font-family: domain;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+#page2-left p span{
+    font-size: 50px;
+    color: #fff;
+    font-family: canopee;
+    background-color: #1c1c19;
+    border-radius: 10%;
+}
+/* ------------------page2-right---------------------- */
 #page2-right{
     height: 100%;
+    width: 70%;
+    padding: 25px;
+    
+}
+#page2-right img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#page2-right p{
+    font-family: canopee;
+    font-size: 80px;
+    font-weight: 100;
+   
+}
+/* ----------------------page3-------------------------- */
+#page3{
+    height: 30px;
+    background-color: #C4BcB3;
+    position: relative;
+}
+#page3 h1{
+    font-size: 300px;
+    font-weight: 100;
+    background-color: #2f2f2f;
+    letter-spacing: -10px;
+    width: fit-content;
+    color: #c4bcb3;
+    margin-left: 2%;
+   height: 30px;
+    line-height: 500px;
+    font-family: canopee;
+}
+#page3 img{
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 3%;
 }
