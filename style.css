@@ -475,6 +475,7 @@ html, body{
 #page5:hover h1{
     animation-play-state: paused;
 }
+/* ----------------media----------------- */
 /* @media screen and (max-width: 412px){
 #page1 h1{
     font-size: 200px;
